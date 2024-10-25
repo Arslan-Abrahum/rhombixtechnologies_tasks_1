@@ -61,7 +61,7 @@ const Navbar = () => {
       <nav className={`h-36 w-full p-20 flex items-center justify-between navbar text-black top-0 left-0 fixed bg-white ${activeSection !== 'Home' ? 'active' : ''}`}>
         <a href="#Home" className='overflow-hidden'>
           {/* <img className='h-[100px] w-[120px]  scale-150 bg-cover bg-center cursor-pointer logoImg' src={logo} alt="Logo" rel="noopener noreferrer" /> */}
-          <h3 className='logoImg font-extrabold text-6xl fL text-[rgb(48,127,128)]'>AR</h3>
+          <h3 className='logoImg font-extrabold text-6xl fL text-[rgb(48,127,128)]'>A-Dev</h3>
         </a>
         <div onClick={toggleSidebar}>
           <div className='sidebar cursor-pointer md:hidden text-3xl'>
