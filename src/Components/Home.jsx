@@ -8,23 +8,23 @@ const Home = () => {
     <>
       <div
         id="Home"
-        className="h-auto w-full bg-[rgb(252,252,253)] py-48 px-20"
+        className="h-auto w-full bg-[#2F4454] py-48 px-20"
       >
         <div className="h-auto w-full flex home-div">
           <div className="h-auto w-[55%] home-div1">
-            <h1 className="text-6xl font-light text-[rgb(48,127,128)] h-text fJ">
+            <h1 className="text-6xl font-light text-[white] h-text fJ">
               Hello
             </h1>
-            <h1 className="text-6xl font-light text-[rgb(48,127,128)] fJ h-text">
+            <h1 className="text-6xl font-light text-white fJ h-text">
               I'm <span className="font-bold fL">Arslan Ibrahim</span>
             </h1>
-            <h1 className="text-4xl font-semibold mt-8 text-[rgb(48,127,128)] fJ h-text">
+            <h1 className="text-4xl font-semibold mt-8 text-white fJ h-text">
               MERN Stack Developer
             </h1>
-            <div className="main text-4xl font-semibold text-[rgb(48,127,128)] mt-3">
-              <h1 className="absolute fJ s-1">JavaScript</h1>
-              <h1 className="absolute fJ s-2">React JS</h1>
-              <h1 className="absolute fJ s-3">Next JS</h1>
+            <div className="main text-4xl font-semibold text-white mt-3">
+              <h1 className="absolute fJ s-1">HTML CSS</h1>
+              <h1 className="absolute fJ s-2">JavaScript</h1>
+              <h1 className="absolute fJ s-3">React JS</h1>
               <h1 className="absolute fJ s-4">MongoDB</h1>
               <h1 className="absolute fJ s-5">Node.js</h1>
               <h1 className="absolute fJ s-6">Express.js</h1>
@@ -52,50 +52,44 @@ const Home = () => {
                 alt=""
               />
             </div>
-            <div className="slide">
-              <img
-                className="rounded-lg"
-                src="https://res.cloudinary.com/dratc41d6/image/upload/v1713085689/next_lbvdzn.png"
-                alt=""
-              />
-            </div>
+
             <div className="slide">
               <img className="rounded-lg" src={mongoDbImg} alt="" />
             </div>
           </div>
         </div>
         <div className="h-auto flex justify-between w-full mt-10 fariha ">
-          <div className="w-[83%] text-[23px] text-[#494848] text-1 fJ">
+          <div className="w-[83%] text-[23px] text-white text-1 fJ">
             Specializing in MERN stack development, I bring over a year of
             professional experience in crafting comprehensive web applications.
             My skill set encompasses
-            <span className="text-[rgb(31,79,80)] font-semibold fJ">
+            <span className="text- font-semibold fJ">
               {" "}
               MongoDB
             </span>{" "}
             for database management,{" "}
-            <span className="text-[rgb(31,79,80)] font-semibold fJ">
+            <span className="text-[] font-semibold fJ">
               Express.js
             </span>{" "}
             for server-side logic,{" "}
-            <span className="text-[rgb(31,79,80)] font-semibold fJ">React.js</span>{" "}
+            <span className="text-white font-semibold fJ">React.js</span>{" "}
             for dynamic user interfaces, and{" "}
-            <span className="text-[rgb(31,79,80)] font-semibold fJ"> Node.js</span>{" "}
+            <span className="text-white font-semibold fJ"> Node.js</span>{" "}
             for backend development. I am adept at working with clients to
             design and implement transformative digital solutions, fostering
             innovation, identifying profitable opportunities, and validating
             concepts to ensure successful project outcomes.
           </div>
-          <div className="w-[145px] h-[170px] rounded-lg bg-[rgb(31,79,80)] text-white pb-10 exp">
+          <div className="w-[145px] h-[170px] rounded-lg bg-[#1C3334] text-white pb-10 exp">
             <p className="font-semibold text-[80px] text-center font-sans -mt-3 fJ">
               1+
             </p>
-            <p className="text-[16px] text-stone-300 text-center -mt-2 fJ">
+            <p className="text-[16px] text-white text-center -mt-2 fJ">
               YEAR OF EXPERIENCE
             </p>
           </div>
         </div>
-        <div className="h-auto w-max fJ font-semibold text-[17px] flex items-center mt-20 socials">
+        <div className="h-auto text-[#60fcff] w-max fJ font-semibold text-[17px] flex items-center mt-20 socials">
           Follow Me on
           <div className="h-[2px] w-[100px] bg-slate-300 ml-[20px] mt-1 gray-div"></div>
           <div className="w-max flex gap-3 ml-5 social-main">
